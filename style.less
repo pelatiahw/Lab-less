@@ -1,0 +1,54 @@
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue + #111;
+
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+h1 {
+    color: rgb(255, 123, 123);
+    font-weight: 300;
+
+    span {
+        font-weight: 600;
+        color: rgb(255, 69, 69) ;
+    }
+
+    &:hover {
+        color: rgb(200, 0, 0);
+    }
+
+    &:hover span {
+        color: rgb(50, 50, 58);
+    }
+}
+nav ul {
+  &:extend(.inline);
+  float: right;
+  display: inline-block;
+}
+.inline {
+  color: red;
+}
+#container1 {
+  color: @light-blue;
+  padding: 6%;
+  margin: 6%;
+  position: absolute;
+}
+#container5 {
+  color: @light-blue;
+  padding: 6%;
+  margin: 6%;
+  position: absolute;
+  top: 115em;
+}
+#footer {
+    width: 40%;
+    padding: 5%;
+    margin: 5%;
+    position: fixed;
+    bottom: 0;
+}
