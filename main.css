@@ -1,8 +1,7 @@
-.gradients {
-  background: #eaeaea;
-  background: linear-gradient(top, #eaeaea, #cccccc);
-  background: -o-linear-gradient(top, #eaeaea, #cccccc);
-  background: -ms-linear-gradient(top, #eaeaea, #cccccc);
-  background: -moz-linear-gradient(top, #eaeaea, #cccccc);
-  background: -webkit-linear-gradient(top, #eaeaea, #cccccc);
+#firstblock {
+  color: #de6242;
+}
+.h5 {
+  color: #de6242;
+  border: solid;
 }
