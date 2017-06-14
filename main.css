@@ -1,48 +1,8 @@
-.float-right {
-  float: right;
-}
-.float-left {
-  float: left;
-}
-h1 {
-  color: #ff7b7b;
-  font-weight: 300;
-}
-h1 span {
-  font-weight: 600;
-  color: #ff4545;
-}
-h1:hover {
-  color: #c80000;
-}
-h1:hover span {
-  color: #32323a;
-}
-nav ul {
-  float: right;
-  display: inline-block;
-}
-.inline,
-nav ul {
-  color: red;
-}
-#container1 {
-  color: #6c94be;
-  padding: 6%;
-  margin: 6%;
-  position: absolute;
-}
-#container5 {
-  color: #6c94be;
-  padding: 6%;
-  margin: 6%;
-  position: absolute;
-  top: 115em;
-}
-#footer {
-  width: 40%;
-  padding: 5%;
-  margin: 5%;
-  position: fixed;
-  bottom: 0;
+.gradients {
+  background: #eaeaea;
+  background: linear-gradient(top, #eaeaea, #cccccc);
+  background: -o-linear-gradient(top, #eaeaea, #cccccc);
+  background: -ms-linear-gradient(top, #eaeaea, #cccccc);
+  background: -moz-linear-gradient(top, #eaeaea, #cccccc);
+  background: -webkit-linear-gradient(top, #eaeaea, #cccccc);
 }
