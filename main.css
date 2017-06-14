@@ -1,7 +1,85 @@
 #firstblock {
+  padding: 1%;
+  margin: 1%;
+  width: 62rem;
+  height: 10rem;
+}
+.firstblockheader {
   color: #de6242;
+  position: absolute;
+  text-align: center;
+  border: 3px solid black;
+  padding: 3%;
+  margin: 2%;
+  width: 18rem;
+  height: 7rem;
+  font-size: 14px;
+}
+.navbar {
+  text-decoration: none;
+  float: right;
+  position: relative;
+  padding: 1%;
+  margin: 1%;
+  top: 2em;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  border-bottom: 3px solid #de6242;
+  padding-bottom: 2px;
+  display: inline;
 }
 .h5 {
   color: #de6242;
-  border: solid;
+}
+#secondblock {
+  padding: 1%;
+  margin: 1%;
+  width: 62rem;
+  height: 42.5rem;
+}
+img {
+  padding: 1%;
+  margin: 1%;
+  width: 64%;
+}
+.secondblockimagetext {
+  position: absolute;
+  font-size: 23px;
+  top: 39.5rem;
+  padding: 2%;
+}
+.secondblockimagetext span {
+  color: white;
+  font: bold 39px/45px Helvetica, Sans-Serif;
+  letter-spacing: -0.5px;
+  background: rgba(0, 0, 0, 0.7);
+  background-color: #333;
+}
+.sbit2 {
+  position: absolute;
+  font-size: 14px;
+  margin: 2%;
+  top: 50rem;
+}
+#thirdblock {
+  padding: 1%;
+  margin: 1%;
+}
+.tbcontainer {
+  background-color: lightgray;
+  padding: 1%;
+  margin: 1%;
+  height: 30rem;
+}
+.thirdblockheader {
+  position: absolute;
+  font-size: 24px;
+}
+.thirdblockpoem {
+  border: 2px;
+  border-style: solid;
+  background-color: white;
 }
